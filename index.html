@@ -38,24 +38,24 @@
 
     <section class="flex items-center justify-center mt-10">
         <h2>Plan and track your club activities efficiently.</h2>
-    </section>
+    </section> 
+<div class="flex items-center justify-center p-4">
 
-    <form action="" class="flex flex-col items-center justify-center mt-10 gap-10">
-        <div class="space-x-10">
-            <input type="text" placeholder="Activity Name"
-                class="border border-amber-950 text-start w-42 h-10 rounded-sm">
-            <label for="date">Date: <input type="date"></label>
+    <div class="bg-gray-300 text-black w-[600px] h-[300px] p-4 rounded-md">
+        <label>Activity</label>
+        <input type="text" placeholder="Activity name" class="border border-gray-50">
+        <label>Date: </label>
+        <input type="date">
+        <div class="flex flex-col">
+             <label>Description: </label>
+            <textarea class="border border-gray-50"></textarea>
         </div>
-        <div class="text-center">
-            <label for="description"><textarea name="description"
-                    class="border border-gray-700"></textarea></label>
-        </div>
-        <button class="bg-lime-900 text-white px-4 py-2 rounded-sm hover:bg-black">Add Activity</button>
-
-    </form>
+        <button class="bg-green-950 text-white text-center px-4 py-2 space-y-4">Submit</button>
+    </div>
+</div>
 
     <footer>
-
+        <a href="#">Saydur Rahman</a>
     </footer>
 
     <script type="module" src="main.js"></script>
